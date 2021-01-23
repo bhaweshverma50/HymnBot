@@ -1,0 +1,32 @@
+{
+  "name": "hymnbot",
+  "version": "1.0.0",
+  "description": "Music bot for Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaweshverma50/HymnBot.git"
+  },
+  "keywords": [
+    "music",
+    "song",
+    "bot",
+    "discord"
+  ],
+  "author": "Bhawesh Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaweshverma50/HymnBot/issues"
+  },
+  "homepage": "https://github.com/bhaweshverma50/HymnBot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.4.4"
+  }
+}
