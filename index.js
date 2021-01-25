@@ -1,3 +1,5 @@
+console.log("Starting Bot...");
+
 require('dotenv').config();
 const Discord = require("discord.js"),
     distube = require("distube"),
